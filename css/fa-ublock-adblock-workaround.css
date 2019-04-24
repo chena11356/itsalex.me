@@ -67,15 +67,15 @@
 .my-fa-youtube-play:before {
   content: "\f16a";
 }
-.my-fa-github:before{
+.my-fa-gh:before{
   content: "\f09b";
 }
-.my-fa-linkedin-in:before{
+.my-fa-li:before{
   content: "\f0e1";
 }
-.my-fa-itch-io:before{
+.my-fa-it:before{
   content: "\f83a";
 }
-.my-fa-facebook-f:before{
+.my-fa-fb:before{
   content: "\f39e";
 }
