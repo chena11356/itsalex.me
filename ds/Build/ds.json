@@ -1,0 +1,16 @@
+{
+"companyName": "Alex Chen",
+"productName": "Diversity Simulator",
+"productVersion": "0.2",
+"dataUrl": "ds.data.unityweb",
+"wasmCodeUrl": "ds.wasm.code.unityweb",
+"wasmFrameworkUrl": "ds.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.1.2f1"
+}
