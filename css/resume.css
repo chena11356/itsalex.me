@@ -198,6 +198,33 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+/*For game, minimum window size is 1024 by 573*/
+
+a.show-if-big {
+  display: inline-block;
+}
+a.hide-if-big {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  a.show-if-big {
+    display: none;
+  }
+  a.hide-if-big {
+    display: inline-block;
+  }
+}
+
+@media (max-height: 725px) {
+  a.show-if-big {
+    display: none;
+  }
+  a.hide-if-big {
+    display: inline-block;
+  }
+}
+
 .bg-primary {
   background-color: #f49a00 !important;
 }
