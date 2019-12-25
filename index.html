@@ -22,6 +22,11 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- Verly physics engine -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/anuraghazra/VerlyRangeSlider@v1.0.0/src/style.css" />
+  <script src="https://cdn.jsdelivr.net/gh/anuraghazra/Verly.js@v1.2.0/dist/verly.bundle.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/anuraghazra/VerlyRangeSlider@v1.0.2/src/VerlyRange.js"></script>
+
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
@@ -88,7 +93,7 @@
           <span class="text-primary">Chen</span>
         </h1>
         <div class="subheading mb-5">New York City · New Haven · (917) 966-0965 ·
-          <a href="mailto:achen1800@gmail.com">achen1800@gmail.com</a>
+          <a href="mailto:alex.chen.ac@yale.edu">alex.chen.ac@yale.edu</a>
         </div>
         <p class="lead mb-4">Hi, I'm Alex! I develop innovative projects at the intersections of political science and computer science. The projects featured below, whether they be <a href="politicalTypologyFinal.pdf" target="_blank">award-winning social science research</a> or <a class="js-scroll-trigger" href="#ds" target="_blank">thought-provoking simulations</a>, highlight my affinity for collaboration, my passion for software programming, and my belief that technology can make the world a better place.<br><br><small><a href="resume.pdf" target="_blank">Want my resume as a PDF?</a></small></p>
         <div class="social-icons">
@@ -116,6 +121,17 @@
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Student Developer</h3>
+            <div class="subheading mb-3">Yale Student Technology Collaborative</div>
+            <p>Utilize Ruby on Rails to develop web apps used by thousands in the Yale community, including the <a href="https://map.yale.edu/" target="_blank">campus map</a>, the housing app <a href="https://housing.yalecollege.yale.edu/" target="_blank">Vesta</a>, and the attendance app <a href="https://gitlab.com/yale-sdmp/cardswipr" target="_blank">CardSwipr</a>.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-secondary">October 2019 - Present</span>
+          </div>
+        </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -186,8 +202,19 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Yale University</h3>
-            <div class="subheading mb-3">Will attend in the fall</div>
+            <div class="subheading mb-3">B.A. in Computer Science and Ethics, Politics & Economics (Expected in May 2023)</div>
             <!--<p>Prospective majors: Computer Science; Political Science; Statistics & Data Science; Economics; Ethics, Politics & Economics</p>-->
+            <div class="mb-3">
+              <a tabindex="0" class="btn btn-lg btn-info" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="Undergraduate Courses" data-content="
+              <h5 class='mb-0'>First-Year Courses</h4>
+              <ul>
+  <li>Introduction to Computer Science</li>
+  <li>Intermediate Microeconomics</li>
+  <li>Latin Prose: An Introduction</li>
+  <li>Poetry and Protest in America</li>
+  </ul>
+  ">Courses</a>
+            </div>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-secondary">August 2019 - May 2023</span>
@@ -233,7 +260,7 @@
         <h2 class="mb-5">Skills</h2>
 
         <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
+        <!-- <ul class="list-inline dev-icons">
           <li class="list-inline-item">
             <i class="fab fa-html5"></i>
           </li>
@@ -273,7 +300,25 @@
           <li class="list-inline-item">
             <i class="fab"><img class="devIconCustom" width="45px" src="img/paintToolSAI.png" alt="Paint Tool SAI"></i>
           </li>
+        </ul> -->
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-laptop"></i>
+            Web App Development (HTML, CSS, JavaScript, Bootstrap, Ruby on Rails)</li>
+          <li>
+            <i class="fa-li fa fa-laptop"></i>
+            Android Development (Android Studio, Java)</li>
+          <li>
+            <i class="fa-li fa fa-laptop"></i>
+            Game Development (Unity, C#)</li>
+          <li>
+            <i class="fa-li fa fa-laptop"></i>
+            Graphic Design (Canva, Paint Tool SAI, Photoshop)</li>
+          <li>
+            <i class="fa-li fa fa-laptop"></i>
+            SPSS Statistical Analysis</li>
         </ul>
+        <br>
 
         <div class="subheading mb-3">Languages</div>
         <ul class="fa-ul mb-0">
@@ -295,8 +340,7 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
         <h2 class="mb-5">Interests</h2>
-        <p>I love to plan future hackathon projects and browse <a href="https://codepen.io/" target=”_blank”>CodePen</a> to learn interesting new web development techniques! Aside from coding, I enjoy running and doing digital art.</p>
-        <p class="mb-0">My favorite show is the masterpiece of Parks and Recreation. During election seasons, I volunteer for campaigns. Feel free to contact me if you would like to collaborate on any projects!</p>
+        <p class="mb-0">I love to plan future hackathon projects and browse <a href="https://codepen.io/" target=”_blank”>CodePen</a> to learn interesting new web development techniques! Aside from coding, I enjoy performing spoken word poetry and practicing with Yale Club Gymnastics. I'm also super passionate about voting rights, so I volunteer with <a href="https://www.evcnational.org/" target="_blank">Every Vote Counts</a> to register voters and teach civic education to teenagers! ♥</p>
       </div>
     </section>
 
@@ -311,6 +355,10 @@
             <b>Regeneron STS 2019 Scholar, NYCSEF First Award, American Psychological Association Award, JSHS Regional Semi-Finalist</b> <br>Conducted <a href="politicalTypologyFinal.pdf" target="_blank">independent research</a> applying political typology analysis to the 114th Congress</li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
+            <b>Finalist (Top Five) - YHack 2019</b> <br>Developed community-building app for mental health with mapping software and augmented reality features
+          </li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
             <b>Best Computational Hacks - AtomHacks 2018</b> <br>Analyzed webpages’ political biases using Java
           </li>
           <li>
@@ -319,7 +367,7 @@
           </li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            <b>National Merit Scholarship Program 2019</b> <br>Offered scholarship as part of less than one percent of U.S. high school seniors who scored exceptionally well on the PSAT</li>
+            <b>National Merit Scholarship</b> <br>Won scholarship as part of less than one percent of U.S. high school seniors who scored exceptionally well on the PSAT</li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
             <b>National Latin Exam</b> <br>Received scores of summa cum laude in 2016 and 2017, maxima cum laude in 2018</li>
@@ -347,6 +395,19 @@
           <a class="btn btn-lg btn-info show-if-big" role="button" href="https://alex-chen.me/ds/" target="_blank">Launch Diversity Simulator</a>
           <a class="btn btn-lg btn-info disabled hide-if-big" role="button" href="https://alex-chen.me/ds/" target="_blank">Your browser is not large enough to launch Diversity Simulator.</a>
         </div>
+
+        <!--
+        <label class="slidecontainer first">
+          <span>Juicy Purple</span>
+          <input class="slider" id="range-slider" type="range" min="1" step="0.01" max="100" value="80">
+        </label>
+
+        <label class="slidecontainer second">
+          <span>Lovely Pink</span>
+          <input class="slider" id="range-slider2" type="range" min="1" step="0.01" max="100" value="20">
+        </label>
+        -->
+
       </div>
     </section>
 
