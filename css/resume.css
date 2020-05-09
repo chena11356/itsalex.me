@@ -4,6 +4,8 @@ body {
   color: #868e96;
 }
 
+canvas { display: block; }
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
