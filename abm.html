@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125404357-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-125404357-2');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Learn about agent-based models!">
+  <meta name="author" content="Alex Chen">
+
+  <title>ABMs!</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Verly physics engine -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/anuraghazra/VerlyRangeSlider@v1.0.0/src/style.css" />
+  <script src="https://cdn.jsdelivr.net/gh/anuraghazra/Verly.js@v1.2.0/dist/verly.bundle.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/anuraghazra/VerlyRangeSlider@v1.0.2/src/VerlyRange.js"></script>
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/abm.css" rel="stylesheet">
+
+  <!-- Workaround to show social icons despite Adblock -->
+  <link href="css/fa-ublock-adblock-workaround.css" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+</head>
+
+<body id="page-top">
+
+  <section id="home" class="d-flex align-items-center position-relative vh-100 cover hero bg-black">
+    <canvas id="canvas-header"></canvas>
+      <div class="container-fluid container-fluid-max">
+        <div class="row text-center">
+          <div class="col">
+            <h2 class="text-white">What is an</h2>
+            <h1 class="text-white">Agent-Based Model?</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section d-flex align-items-center" id="desc">
+      <div class="w-75 pl-5 pr-5 pt-5 show-if-big">
+        <h1 class="mb-0">"A THIRD WAY OF DOING SCIENCE"
+        </h1>
+        <div class="subheading mb-5">— Robert Axelrod, Professor of Political Science and Public Policy at the University of Michigan
+        </div>
+        <p class="mb-4 pr-3 pb-5">Agent-based models (ABMs) simulate instances of individual behavior and draw conclusions on the broader system into which they are introduced. Essentially, ABMs instantiate agents in a system, introduce a degree of randomness into agent behavior, and see how agents' <b>actions and interactions impact the system as a whole</b>. In doing so, such models primarily aim to show that certain properties arise within the system that are not inherent in the agents themselves: in others words, they demonstrate <b>principles of emergence</b>.</p>
+      </div>
+      <div class="w-100 pl-5 pr-5 pt-5 hide-if-big">
+        <h1 class="mb-0">"A THIRD WAY OF DOING SCIENCE"
+        </h1>
+        <div class="subheading mb-5">— Robert Axelrod, Professor of Political Science and Public Policy at the University of Michigan
+        </div>
+        <p class="mb-4 pr-3 pb-5">Agent-based models (ABMs) simulate instances of individual behavior and draw conclusions on the broader system into which they are introduced. Essentially, ABMs instantiate agents in a system, introduce a degree of randomness into agent behavior, and see how agents' <b>actions and interactions impact the system as a whole</b>. In doing so, such models primarily aim to show that certain properties arise within the system that are not inherent in the agents themselves: in others words, they demonstrate <b>principles of emergence</b>.</p>
+      </div>
+      <div class="w-25 ml-3 bg-extra-light-gray min-vh-100 show-if-big" id="desc-interactive">
+        <canvas id="canvas-desc"></canvas>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="d-flex align-items-center">
+        <div class="w-100 pt-5 pb-0 bg-black text-center">
+          <h2 class="mb-0 text-white">Here are some examples of <span class="text-big">ABM</span>s!
+          </h2>
+        </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center bg-black text-light-gray" id="ecology">
+        <div class="w-100 pl-5 pr-5 pt-5">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-white"><span class="text-big">ABM</span>s <span class="text-small">for</span> Ecology ‏‏‎ ‎‏‏‎ ‎<i class="fas fa-leaf"></i></h2>
+              <p>
+                ABMs are common in biology! For example, they can help model 
+                ecological equilibria by introducing agents of certain species 
+                of plants and animals into a simulated environment. The 
+                interactions of these agents can then help isolate the factors 
+                that may lead to the preservation or destruction of ecological 
+                stability. 
+              </p>
+              <p>
+                The following is a simple demo ABM for ecology. Predators, 
+                denoted in red, must eat prey, denoted in blue, to survive. Prey must 
+                eat plants, denoted in green. Notice how the populations of predators, 
+                prey, and plants tend to approach an equilibrium, which can be modeled 
+                by logistic growth functions. 
+              </p>
+              <p>
+                From this demo, it may seem that ABMs are useful for educational 
+                purposes, visualizing data in a digestible and visually appealing 
+                manner. But their primary scientific benefit comes from highlighting 
+                principles of emergence. Let's say we introduced more factors, 
+                such as conservation efforts, invasive species, or more complicated 
+                agent behavior algorithms. We could then explore how these factors 
+                impact the system as a whole, and if we input real-life ecological 
+                data, our ABM can help inform environmental policy decisions, or 
+                even monitor the health of a real ecological system! 
+              </p>
+            </div>
+            <div class="col">
+              <body onload="init();">
+                <canvas id="demoCanvas" width="500" height="300"></canvas>
+              </body>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center bg-black text-light-gray" id="epidemiology">
+        <div class="w-100 pl-5 pr-5 pt-5">
+          <div class="row">
+            <div class="col">
+              <p>[DEMO]</p>
+            </div>
+            <div class="col">
+              <h2 class="text-white"><span class="text-big">ABM</span>s <span class="text-small">for</span> Epidemiology ‏‏‎ ‎‏‏‎ ‎<i class="fas fa-globe-americas"></i></h2>
+              <p>
+                ABMs are common in biology! For example, they can help model 
+                ecological equilibria by introducing agents of certain species 
+                of plants and animals into a simulated environment. The 
+                interactions of these agents can then help isolate the factors 
+                that may lead to the preservation or destruction of ecological 
+                stability. 
+              </p>
+              <p>
+                The following is a simple demo ABM for ecology. Predators, 
+                denoted in red, must eat prey, denoted in blue, to survive. Prey must 
+                eat plants, denoted in green. Notice how the populations of predators, 
+                prey, and plants tend to approach an equilibrium, which can be modeled 
+                by logistic growth functions. 
+              </p>
+              <p>
+                From this demo, it may seem that ABMs are useful for educational 
+                purposes, visualizing data in a digestible and visually appealing 
+                manner. But their primary scientific benefit comes from highlighting 
+                principles of emergence. Let's say we introduced more factors, 
+                such as conservation efforts, invasive species, or more complicated 
+                agent behavior algorithms. We could then explore how these factors 
+                impact the system as a whole, and if we input real-life ecological 
+                data, our ABM can help inform environmental policy decisions, or 
+                even monitor the health of a real ecological system! 
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center bg-black text-light-gray" id="macro">
+        <div class="w-100 pl-5 pr-5 pt-5">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-white"><span class="text-big">ABM</span>s <span class="text-small">for</span> Macroeconomics ‏‏‎ ‎‏‏‎ ‎<i class="fas fa-dollar-sign"></i></h2>
+              <p>
+                ABMs are common in biology! For example, they can help model 
+                ecological equilibria by introducing agents of certain species 
+                of plants and animals into a simulated environment. The 
+                interactions of these agents can then help isolate the factors 
+                that may lead to the preservation or destruction of ecological 
+                stability. 
+              </p>
+              <p>
+                The following is a simple demo ABM for ecology. Predators, 
+                denoted in red, must eat prey, denoted in blue, to survive. Prey must 
+                eat plants, denoted in green. Notice how the populations of predators, 
+                prey, and plants tend to approach an equilibrium, which can be modeled 
+                by logistic growth functions. 
+              </p>
+              <p>
+                From this demo, it may seem that ABMs are useful for educational 
+                purposes, visualizing data in a digestible and visually appealing 
+                manner. But their primary scientific benefit comes from highlighting 
+                principles of emergence. Let's say we introduced more factors, 
+                such as conservation efforts, invasive species, or more complicated 
+                agent behavior algorithms. We could then explore how these factors 
+                impact the system as a whole, and if we input real-life ecological 
+                data, our ABM can help inform environmental policy decisions, or 
+                even monitor the health of a real ecological system! 
+              </p>
+            </div>
+            <div class="col">
+              <p>[DEMO]</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center bg-black text-light-gray" id="micro">
+        <div class="w-100 pl-5 pr-5 pt-5">
+          <div class="row">
+            <div class="col">
+              <p>[DEMO]</p>
+            </div>
+            <div class="col">
+              <h2 class="text-white"><span class="text-big">ABM</span>s <span class="text-small">for</span> Microeconomics ‏‏‎ ‎‏‏‎ ‎<i class="fas fa-project-diagram"></i></h2>
+              <p>
+                ABMs are common in biology! For example, they can help model 
+                ecological equilibria by introducing agents of certain species 
+                of plants and animals into a simulated environment. The 
+                interactions of these agents can then help isolate the factors 
+                that may lead to the preservation or destruction of ecological 
+                stability. 
+              </p>
+              <p>
+                The following is a simple demo ABM for ecology. Predators, 
+                denoted in red, must eat prey, denoted in blue, to survive. Prey must 
+                eat plants, denoted in green. Notice how the populations of predators, 
+                prey, and plants tend to approach an equilibrium, which can be modeled 
+                by logistic growth functions. 
+              </p>
+              <p>
+                From this demo, it may seem that ABMs are useful for educational 
+                purposes, visualizing data in a digestible and visually appealing 
+                manner. But their primary scientific benefit comes from highlighting 
+                principles of emergence. Let's say we introduced more factors, 
+                such as conservation efforts, invasive species, or more complicated 
+                agent behavior algorithms. We could then explore how these factors 
+                impact the system as a whole, and if we input real-life ecological 
+                data, our ABM can help inform environmental policy decisions, or 
+                even monitor the health of a real ecological system! 
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="d-flex align-items-center">
+        <div class="w-100 pt-5 pb-5 text-center">
+          <h2 class="mb-0">This technology is still relatively new!
+          </h2>
+        </div>
+    </section>
+
+    <section class="resume-section d-flex align-items-center" id="desc">
+      <div class="w-25 pl-5 pr-5 pt-5 show-if-big">
+        <p><b>Thomas Schelling</b> first published a foundational exploratory text into such models in 1978, questioning why individuals in crowded lecture halls tended to seat themselves into certain patterns.</p>
+        <p>[RESULTS]</p>
+      </div>
+      <div class="w-50 pl-5 pr-5 pt-5 show-if-big">
+          <p class="mb-4 pr-3 pb-5">[DEMO]</p>
+        </div>
+      <div class="w-25 ml-3 min-vh-100 show-if-big" id="desc-interactive">
+        <!-- <canvas id="canvas-desc"></canvas> -->
+        <p>Animation of Schelling and his book
+        </p>
+      </div>
+    </section>
+
+    <section class="resume-section d-flex align-items-center" id="desc">
+      <div class="w-25 pl-5 pr-5 pt-5 show-if-big">
+        <p>Since then, ABMs have gradually become more promising and computationally feasible, especially with recent advances in computer science techniques.</p>
+      </div>
+      <div class="w-75 ml-3 min-vh-100 show-if-big" id="desc-interactive">
+        <!-- <canvas id="canvas-desc"></canvas> -->
+        <p class="mb-4 pr-3 pb-5">[DEMO or list or something?]</p>
+      </div>
+    </section>
+
+    <section class="resume-section d-flex align-items-center" id="desc">
+        <div class="w-25 pl-5 pr-5 pt-5 show-if-big">
+          <p>Yet while ABMs have grown increasingly relevant in fields like epidemiology and economics, likely due to the inherently agent-oriented and system-focused nature of these disciplines, they remain relatively uninvestigated in others, like political science and philosophy. 
+            </p>
+        </div>
+        <div class="w-75 ml-3 min-vh-100 show-if-big" id="desc-interactive">
+          <!-- <canvas id="canvas-desc"></canvas> -->
+          <p class="mb-4 pr-3 pb-5">[DEMO of moral norms thing?]</p>
+        </div>
+      </section>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- EaselJS -->
+  <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.js"></script>
+  <script src="js/bob.js"></script>
+  <script src="js/desc.js"></script>
+  <script src="js/ecology.js"></script>
+
+</body>
+
+</html>
