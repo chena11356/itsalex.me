@@ -218,12 +218,30 @@ a.hide-if-big {
   }
 }
 
-@media (max-height: 725px) {
+@media (max-height: 573px) {
   a.show-if-big {
     display: none;
   }
   a.hide-if-big {
     display: inline-block;
+  }
+}
+
+/*For ABM demo GIFs, show the side GIF if width > 818px, else show the bottom GIF*/
+
+div.show-if-big {
+  display: block;
+}
+div.hide-if-big {
+  display: none;
+}
+
+@media (max-width: 818px) {
+  div.show-if-big {
+    display: none;
+  }
+  div.hide-if-big {
+    display: block;
   }
 }
 
