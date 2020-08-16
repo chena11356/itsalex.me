@@ -78,10 +78,13 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#ds">Diversity Simulator</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#police">Systemic Inequality</a>
+        </li>
       </ul>
     </div>
     <div id="copyright">
-      <p>© 2020 Alex Chen</p>
+      <p>Made with ♡ by Alex Chen</p>
     </div>
   </nav>
 
@@ -350,9 +353,6 @@
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            <b>Modeling Systemic Inequality Within Police Organizations with an Agent-Based Model</b> <br>As a <a href="https://www.jurist.org/the-jurist-digital-scholars-program/" target="_blank">JURIST Digital Scholar</a> and <a href="https://hash.ai/" target="_blank">HASH Fellow</a>, conducted research culminating in an agent-based model of police organizations and the communities they serve, emphasizing the difference between “a few bad apples” and actual systemic inequality, exploring the causal role of policy reforms in resolving police brutality. See full proposal <a href="JURIST_Digital_Scholar_Proposal.pdf" target="_blank">here</a>.</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
             <b>Yale Emergency Support (YES) — New Haven Pandemic Task Force</b> <br>Worked with 5-person team to develop emergency pandemic volunteer management and training <a href="http://newhavenhelpwithcovid.com/" target="_blank">web app</a> for the City of New Haven, matching 500+ users to volunteer opportunities with city government and 20+ New Haven nonprofits. Offered personalized volunteer training through integration with 3rd-party software and helped expand platform to Athens, Georgia.</li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
@@ -391,14 +391,71 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="ds">
       <div class="w-100">
-        <h2 class="mb-5">Diversity Simulator</h2>
-        <p>The Diversity Simulator, inspired by the amazing diversity of New York City and created with Unity and C#, leverages demographic data to simulate the process of community-building considering inherent biases based on race, gender, and income class. Various modifiable factors influence characters' initial biases along with the relationships eventually formed with those near them.</p>
-        <p>Instructions are on the top right. Presets are available at the bottom right to simulate historical and geographical situations. Normal distributions are used to model variables like racism, sexism, and elitism. Characters develop and dissuade stereotypes based on those nearby (e.g. being near a likable person of another race would make somebody less racist).</p>
-        <br>
-        <div class="mb-3">
-          <a class="btn btn-lg btn-info show-if-big" role="button" href="https://alex-chen.me/ds/" target="_blank">Launch Diversity Simulator</a>
-          <a class="btn btn-lg btn-info disabled hide-if-big" role="button" href="https://alex-chen.me/ds/" target="_blank">Your browser is not large enough to launch Diversity Simulator.</a>
+        <div class="row">
+          <div class="col">
+              <h2 class="mb-5">Diversity Simulator</h2>
+              <p>The Diversity Simulator, created with Unity and C#, is an agent-based model (ABM) that leverages demographic data to simulate the process of community-building considering inherent biases based on race, gender, and income class. Various modifiable factors influence characters' initial biases along with the relationships eventually formed with those near them.</p>
+              <p>Instructions are on the top right. Presets are available at the bottom right to simulate historical and geographical situations. Normal distributions are used to model variables like racism, sexism, and elitism. Characters develop and dissuade stereotypes based on those nearby (e.g. being near a likable person of another race would make somebody less racist).</p>
+              <br>
+              <div class="mb-3">
+                <a class="btn btn-lg btn-info show-if-big" role="button" href="https://itsalex.me/ds/" target="_blank">Launch Diversity Simulator</a>
+                <a class="btn btn-lg btn-info disabled hide-if-big" role="button" href="https://itsalex.me/ds/" target="_blank">Your browser is not large enough to launch Diversity Simulator.</a>
+              </div>
+            </div>
+            <div class="col col-lg-4 my-auto">
+              <img src="ds.gif" alt="sample demo of diversity simulator, chess pawns of different colors moving around a chessboard" style="width:332px;height:332px;border-radius: 10%;">
+            </div>
         </div>
+
+        <!--
+        <label class="slidecontainer first">
+          <span>Juicy Purple</span>
+          <input class="slider" id="range-slider" type="range" min="1" step="0.01" max="100" value="80">
+        </label>
+
+        <label class="slidecontainer second">
+          <span>Lovely Pink</span>
+          <input class="slider" id="range-slider2" type="range" min="1" step="0.01" max="100" value="20">
+        </label>
+        -->
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="police">
+      <div class="w-100">
+        <div class="row">
+          <div class="col">
+            <h2 class="mb-5">Modeling Systemic Inequality <br/>in Law Enforcement</h2>
+            <p>
+              As a <a href="https://www.jurist.org/the-jurist-digital-scholars-program/" target="_blank">JURIST Digital Scholar</a> and <a href="https://hash.ai/" target="_blank">HASH Fellow</a> for Summer 2020, I conducted research culminating in an agent-based model (ABM) of police organizations and the communities they serve, emphasizing the difference between “a few bad apples” and actual systemic inequality. The model consolidates real-life policing and demographic data on the precinct and national levels. Even in this relatively simple model, a pattern of polarization emerges, with "bad" communities getting worse and "good" communities getting better, partially as a direct result of police agents' racial biases.
+            </p>
+            <p>
+              The goal of this project was to explore what it means for a problem to be systemic, and to set a foundation for further research surrounding structural feedback loops in law enforcement (e.g. hot spots policing, the blue wall of silence, militarization of police forces, the War on Drugs and the definition of a crime, a culture of dehumanization, legal estrangement within civilian communities). Importantly, a glaring gap in existing police research is lack of community involvement — by focusing on agent-level analyses while still incorporating data from studies with more traditional research techniques, I hope to bring greater emphasis to the perspectives and lived experiences of those who have been most impacted by injustice in policing. 
+            </p>
+            <p>
+              I used HASH's JavaScript-based ABM development tools.
+            </p>
+            <br>
+            <div class="mb-3">
+              <a class="btn btn-lg btn-info" role="button" href="https://hash.ai/index/5f397938ceaba295d1929d87/systemic-inequality-in-law-enforcement" target="_blank">Launch Model</a>
+            </div>
+            <div class="mb-3">
+              <a class="btn btn-lg btn-info" role="button" href="ODD+D_Protocol_-_ABM_for_Systemic_Inequality_in_Policing.pdf" target="_blank">ODD+D Protocol (PDF)</a>
+            </div>
+            <div class="mb-3">
+              <a class="btn btn-lg btn-info" role="button" href="JURIST_Digital_Scholar_Proposal.pdf" target="_blank">Original Project Proposal (PDF)</a>
+            </div>
+          </div>
+          <div class="col col-lg-4 my-auto">
+              <img src="police.gif" alt="sample demo of police ABM, civilian agents of varying races wander around their neighborhoods of varying colors, blue police agents respond to crimes" style="width:332px;height:332px;border-radius: 10%;">
+            </div>
+        </div>
+        
+
+
 
         <!--
         <label class="slidecontainer first">
