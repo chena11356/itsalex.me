@@ -38,3 +38,13 @@ $('.popover-dismiss').popover({
 $('[data-toggle="popover"]').popover({
     container: 'body'
 });
+
+$('#videoLinkPolice').click(function () {
+  var src = 'https://www.youtube.com/embed/B5bzWKs7SQg';
+  $('#myModal').modal('show');
+  $('#myModal iframe').attr('src', src);
+});
+
+$('#myModal button').click(function () {
+  $('#myModal iframe').removeAttr('src');
+});
