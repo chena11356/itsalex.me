@@ -40,7 +40,7 @@ $('[data-toggle="popover"]').popover({
 });
 
 $('#videoLinkPolice').click(function () {
-  var src = 'https://www.youtube.com/embed/B5bzWKs7SQg';
+  var src = 'https://www.youtube.com/embed/B5bzWKs7SQg?start=285';
   $('#myModal').modal('show');
   $('#myModal iframe').attr('src', src);
 });
