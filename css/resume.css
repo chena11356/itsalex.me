@@ -269,3 +269,12 @@ a:hover:not(.btn), a:focus:not(.btn), a:active:not(.btn) {
 .popover{
     max-width: 100%; /* Max Width of the popover (depending on the container!) */
 }
+
+.btn-extra-sm {
+  font-size: 80%;
+}
+
+.btn-outline-info:hover {
+  background-color: unset !important;
+  color: #42A3B8 !important; 
+}
