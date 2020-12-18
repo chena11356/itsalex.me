@@ -264,6 +264,7 @@ a {
 
 a:hover:not(.btn), a:focus:not(.btn), a:active:not(.btn) {
   color: #af6a03;
+  text-decoration: none;
 }
 
 .popover{
