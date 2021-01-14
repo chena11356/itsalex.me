@@ -1,3 +1,5 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
@@ -278,4 +280,46 @@ a:hover:not(.btn), a:focus:not(.btn), a:active:not(.btn) {
 .btn-outline-info:hover {
   background-color: unset !important;
   color: #42A3B8 !important; 
+}
+
+.sarcastic {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+blockquote {
+  border-radius: 3px;
+  position: relative;  /*  <--- */
+  font-style: italic;
+  text-align: center;
+  padding: 1rem 1.2rem;
+  width: 82%;  /* create space for the quotes */
+  color: #5c5c5c;
+  margin: 1rem auto 2rem;
+  /* margin-left: 3rem; */
+  background: #E8E8E8;
+}
+blockquote i, blockquote a {
+  font-style: normal;
+}
+/* -- create the quotation marks -- */
+blockquote:before,
+blockquote:after{
+  font-family: FontAwesome; 
+  position: absolute;
+  /* -- inside the relative position of blockquote -- */
+  top: 13px;
+  color: #E8E8E8;
+  font-size: 34px;
+}
+blockquote:before{
+  content: "\f10d";
+  margin-right: 13px;
+  right: 100%;
+}
+blockquote:after{
+  content: "\f10e";
+  margin-left: 13px;
+  left: 100%;  
+  top: auto;
+  bottom: 13px;
 }

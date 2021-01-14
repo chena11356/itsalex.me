@@ -30,6 +30,7 @@
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
@@ -48,7 +49,8 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Alex Chen</span>
       <span class="d-none d-lg-block">
-        <img class="top img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="Alex Chen">
+        <img id="profile" class="top img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="Alex Chen">
+        <img id="profile-baby" class="top img-fluid img-profile rounded-circle mx-auto mb-2 d-none" src="baby_square.jpeg" alt="Alex Chen as a baby">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,6 +75,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#writing">Writing Samples</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#ds">Diversity Simulator</a>
@@ -918,17 +923,88 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        <p class="mb-0">
-          As the co-president of <a href="https://yaleclubgymnastics.com/" target="_blank">Yale Club Gymnastics</a>, 
-          I love attending practices and exploring what it means to build a community. I also write and perform spoken word poetry 
-          and teach poetry to middle and high schoolers 
-          through <a href="https://yale.learningu.org/learn/splash.html" target="_blank">Splash at Yale</a> and my poetry 
-          group <a href="https://www.instagram.com/teethpoets/" target="_blank">TEETH Poets</a>, and I volunteer as a coding 
-          teacher with <a href=”https://www.the-cs.org/” href=”_blank”>The Coding School</a>. I'm also super passionate about 
-          voting rights, so I volunteer with <a href="https://www.evcnational.org/" target="_blank">Every Vote Counts</a> to 
-          register voters and teach civic education to teenagers! ♥
-        </p>
+        <div class="row">
+          <div class="col align-self-center">
+              <h2 class="mb-5">Interests</h2>
+              <p>
+                As the co-president of <a href="https://yaleclubgymnastics.com/" target="_blank">Yale Club Gymnastics</a>, 
+                I love attending practices and exploring what it means to build a community. I also write and perform spoken word poetry 
+                and teach poetry to middle and high schoolers 
+                through <a href="https://yale.learningu.org/learn/splash.html" target="_blank">Splash at Yale</a> and my poetry 
+                group <a href="https://www.instagram.com/teethpoets/" target="_blank">TEETH Poets</a>, and I volunteer as a coding 
+                teacher with <a href=”https://www.the-cs.org/” href=”_blank”>The Coding School</a>. 
+              </p>
+              <p>  
+                In my spare time I enjoy 
+                using Adobe Photoshop, Illustrator, Premiere Pro, and Audition to create fun projects, such as editing my family members 
+                into wacky scenarios or generating <span class="sarcastic">quality</span> content for my five subscribers on <a href="https://www.youtube.com/channel/UCG5d78CJC6ZhQBPzFWqn8PA" target="_blank">YouTube</a>. ♥
+              </p>
+              <div class="card mb-3 mt-5 hide-if-big">
+                <img class="card-img-top" src="ps1_horizontal.png" alt="Alex's brother, photoshopped into an angel">
+                <div class="card-body">
+                  <p class="card-text">My brother as an angel.</p>
+                </div>
+              </div>
+              <div class="card hide-if-big">
+                <img class="card-img-top" src="ps2_horizontal.png" alt="Alex's grandma, photoshopped onto a surfboard">
+                <div class="card-body">
+                  <p class="card-text">My grandma on a surfboard.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col show-if-big">
+              <div class="card mb-3">
+                <img class="card-img-top" src="ps1_horizontal.png" alt="Alex's brother, photoshopped into an angel">
+                <div class="card-body">
+                  <p class="card-text">My brother as an angel.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="ps2_horizontal.png" alt="Alex's grandma, photoshopped onto a surfboard">
+                <div class="card-body">
+                  <p class="card-text">My grandma on a surfboard.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="writing">
+      <div class="w-100">
+        <h2 class="mb-5">Writing Samples</h2>
+        <div class="row">
+          <blockquote class="mb-3">
+            <p>
+              "When discussing the role of human-centered design, agile methodology, and UX research in a company's 
+              workflow, the language can be so inundated with buzzwords such that the entire purpose of human-centered 
+              design is lost, whether intentionally or otherwise. And when the focus becomes the jargon rather than 
+              trying to understand the lived experiences of communities that are harmed by systemic inequalities, this 
+              pattern further heightens barriers to entry into the technology industry for those from marginalized 
+              communities, and perpetuates a cycle of classism by which only those who are already 'experts' can 
+              understand the product development process, which is exactly the opposite of what human-centered design 
+              is supposed to accomplish."
+            </p>
+            <a class="btn btn-info" role="button" href="anth112.pdf" target="_blank">
+              Building Products with Empathy: Reconceptualizing the Human-Centered Design Process as an Application of Theories of Personhood (PDF)
+            </a>
+          </blockquote>
+          <blockquote>
+            <p>
+              "<i>Iep Jaltok</i> bridges the gap between the climate crisis of the Marshall Islands and the actions of 
+              institutions like Yale and Harvard, setting forth startling parallels between the historical exploitation 
+              of the Marshallese people and the current complicity of Yale and Harvard in funding fossil fuel companies 
+              that threaten the very existence of the Marshallese and the livelihood of the Puerto Ricans. Yale and 
+              Harvard have a responsibility to divest from these companies, and until they do, increased pressure 
+              from student activists appears to be the most effective solution."
+            </p>
+            <a class="btn btn-info" role="button" href="eng027.pdf" target="_blank">
+                More Than a Climate Change Protest: Football, Poetry, and the Marshall Islands (PDF)
+            </a>
+          </blockquote>
+        </div>
       </div>
     </section>
 
@@ -1089,6 +1165,9 @@
         </a>
         <a class="pl-2 text-white" href="https://www.youtube.com/channel/UCG5d78CJC6ZhQBPzFWqn8PA" target="_blank">
           <i class="fab fa-youtube"></i>
+        </a>
+        <a class="pl-2 text-white" href="https://en.wikipedia.org/wiki/Easter_egg_(media)#In_video_games" target="_blank">
+          <i class="fas fa-egg"></i>
         </a>
       </div>
     </footer>
