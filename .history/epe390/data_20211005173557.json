@@ -1,0 +1,167 @@
+{
+  "nodes": [
+    {
+      "id": "MOCTO",
+      "group": 1,
+      "long": "New York City Mayor's Office of the Chief Technology Officer",
+      "desc": "..."
+    },
+    {
+      "id": "NYCEDC",
+      "group": 1,
+      "long": "New York City Economic Development Corporation",
+      "desc": "..."
+    },
+    {
+      "id": "NYC Council Member Rodríguez",
+      "group": 2,
+      "long": "New York City Council Member Ydanis Rodríguez (District 10)",
+      "desc": "..."
+    },
+    {
+      "id": "NYC Council Committee on Technology",
+      "group": 2,
+      "long": "New York City Council Committee on Technology",
+      "desc": "Chaired by Council Member Robert Holden. Includes Council Members Paul Vallone, Eric Ulrich, Brad Lander, and Kalman Yeger."
+    },
+    {
+      "id": "Community Board 12",
+      "group": 2,
+      "long": "New York City Manhattan Community Board 12",
+      "desc": "..."
+    },
+    {
+      "id": "Manhattan DA",
+      "group": 2,
+      "long": "Manhattan District Attorney Cyrus Vance Jr.",
+      "desc": "will be replaced by Alvin Bragg in 2021, dem. nominee"
+    },
+    {
+      "id": "HRA",
+      "group": 2,
+      "long": "New York City Human Resources Administration",
+      "desc": "..."
+    },
+    {
+      "id": "HPD",
+      "group": 2,
+      "long": "New York City Department of Housing Preservation and Development",
+      "desc": "..."
+    },
+    {
+      "id": "MOPT",
+      "group": 2,
+      "long": "New York City Mayor's Office to Protect Tenants",
+      "desc": "..."
+    },
+    {
+      "id": "MOCMH",
+      "group": 2,
+      "long": "New York City Mayor's Office of Community Mental Health",
+      "desc": "used to be thrivenyc before rebranding after scandal from audit, was first lady's pet project"
+    },
+    {
+      "id": "DOHMH",
+      "group": 2,
+      "long": "New York City Department of Health and Mental Hygiene",
+      "desc": "..."
+    },
+    {
+      "id": "NYC Health + Hospitals",
+      "group": 2,
+      "long": "New York City Health and Hospitals Corporation",
+      "desc": "..."
+    },
+    {
+      "id": "NYS Assembly Member De La Rosa",
+      "group": 3,
+      "long": "New York State Assembly Member Carmen De La Rosa (District 72)",
+      "desc": "..."
+    },
+    {
+      "id": "NYS Senator Jackson",
+      "group": 3,
+      "long": "New York State Senator Robert Jackson (District 31)",
+      "desc": "..."
+    },
+    {
+      "id": "OTDA",
+      "group": 3,
+      "long": "New York State Office of Temporary and Disability Assistance",
+      "desc": "..."
+    },
+    {
+      "id": "OMH",
+      "group": 3,
+      "long": "New York State Office of Mental Health",
+      "desc": "..."
+    },
+    {
+      "id": "HUD",
+      "group": 4,
+      "long": "United States Department of Housing and Urban Development",
+      "desc": "..."
+    },
+    {
+      "id": "Northern Manhattan CBOs",
+      "group": 5,
+      "long": "Northern Manhattan Community-Based Organizations",
+      "desc": "..."
+    },
+    {
+      "id": "BetaNYC",
+      "group": 6,
+      "long": "BetaNYC",
+      "desc": "..."
+    },
+    {
+      "id": "NYC Civic Innovation Lab & Fellows",
+      "group": 6,
+      "long": "NYC Civic Innovation Lab & Fellows",
+      "desc": "..."
+    },
+    {
+      "id": "Other Tenants' Rights Organizations",
+      "group": 7,
+      "long": "Other Tenants' Rights Organizations",
+      "desc": "..."
+    },
+    {
+      "id": "Other Tenants' Rights Organizations",
+      "group": 7,
+      "long": "Other Tenants' Rights Organizations",
+      "desc": "..."
+    },
+    {
+      "id": "Other Mental Health Organizations",
+      "group": 8,
+      "long": "Other Mental Health Organizations",
+      "desc": "..."
+    },
+    {
+      "id": "Inwood and Washington Heights Community",
+      "group": 9,
+      "long": "Inwood and Washington Heights Community",
+      "desc": "..."
+    }
+  ],
+  "links": [
+    { "source": "MOCTO", "target": "NYCEDC", "value": 20 },
+    { "source": "MOCTO", "target": "Northern Manhattan CBOs", "value": 10 },
+    {
+      "source": "MOCTO",
+      "target": "Inwood and Washington Heights Community",
+      "value": 10
+    },
+    {
+      "source": "MOCTO",
+      "target": "HPD",
+      "value": 10
+    },
+    {
+      "source": "MOCTO",
+      "target": "MOPT",
+      "value": 10
+    }
+  ]
+}

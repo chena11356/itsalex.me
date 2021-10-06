@@ -1,0 +1,416 @@
+{
+  "nodes": [
+    {
+      "id": "MOCTO + NYCEDC",
+      "group": 1,
+      "long": "New York City Mayor's Office of the Chief Technology Officer + New York City Economic Development Corporation",
+      "desc": "..."
+    },
+    {
+      "id": "NYC Council Member Rodríguez",
+      "group": 2,
+      "long": "New York City Council Member Ydanis Rodríguez (District 10)",
+      "desc": "Since 2010, Council Member Rodríguez has represented Inwood, Washington Heights, and Marble Hill in the New York City Council. He emphasizes the \"robust and authentic identity of a multicultural, working class community,\" wishes to pioneer \"the cultivation of a technological and health hub,\" and encourages \"private-public partnerships infused with mixed use of resources.\""
+    },
+    {
+      "id": "NYC Council Committee on Technology",
+      "group": 2,
+      "long": "New York City Council Committee on Technology",
+      "desc": "Chaired by Council Member Robert Holden. Includes Council Members Paul Vallone, Eric Ulrich, Brad Lander, and Kalman Yeger."
+    },
+    {
+      "id": "Community Board 12",
+      "group": 2,
+      "long": "New York City Manhattan Community Board 12",
+      "desc": "Community Board 12 represents Inwood and Washington Heights. As described on their website, \"Community Boards have an important advisory role in dealing with land use and zoning matters, the City budget, municipal service delivery and many other matters relating to their communities’ welfare. Board 12 is here to improve the quality of life for all New Yorkers residing in their community.\" Community Board 12 also shares resources and CBOs with constituents."
+    },
+    {
+      "id": "Manhattan DA",
+      "group": 2,
+      "long": "Manhattan District Attorney Cyrus Vance Jr.",
+      "desc": "The Manhattan District Attorney is \"responsible for the prosecution of violation of New York state laws\". While the current Manhattan DA is Cyrus Vance Jr., he will most likely be replaced in 2022 by Alvin Bragg, the Democratic nominee."
+    },
+    {
+      "id": "HRA",
+      "group": 2,
+      "long": "New York City Human Resources Administration",
+      "desc": "The New York City Human Resources Administration / Department of Social Services is \"the largest local social services agency in the country\" and \"helps more than three million New Yorkers annually through the administration of more than 12 major public assistance programs, with more than 14,000 employees and an operating budget of $9.6 billion,\" including Emergency Rental Assistance."
+    },
+    {
+      "id": "HPD",
+      "group": 2,
+      "long": "New York City Department of Housing Preservation and Development",
+      "desc": "..."
+    },
+    {
+      "id": "MOPT",
+      "group": 2,
+      "long": "New York City Mayor's Office to Protect Tenants",
+      "desc": "..."
+    },
+    {
+      "id": "PEU",
+      "group": 2,
+      "long": "New York City Mayor's Public Engagement Unit",
+      "desc": "helped heat seek with tenant support unit to distribute sensors"
+    },
+    {
+      "id": "MOCMH",
+      "group": 2,
+      "long": "New York City Mayor's Office of Community Mental Health",
+      "desc": "used to be thrivenyc before rebranding after scandal from audit, was first lady's pet project"
+    },
+    {
+      "id": "DOHMH",
+      "group": 2,
+      "long": "New York City Department of Health and Mental Hygiene",
+      "desc": "The DOHMH is \"responsible for public health along with issuing birth certificates, dog licenses, and conducting restaurant inspection and enforcement.\" DOHMH also connects people and organizations with mental health services."
+    },
+    {
+      "id": "NYC Health + Hospitals",
+      "group": 2,
+      "long": "New York City Health and Hospitals Corporation",
+      "desc": "The New York City Health and Hospitals Corporation \"operates the public hospitals and clinics in New York City as a public benefit corporation.\" These hospitals offer mental health services."
+    },
+    {
+      "id": "NYS Assembly Member De La Rosa",
+      "group": 3,
+      "long": "New York State Assembly Member Carmen De La Rosa (District 72)",
+      "desc": "Since 2017, Assembly Member De La Rosa has represented Inwood and parts of Washington Heights in the New York State Assembly. She engages in progressive, grassroots politics."
+    },
+    {
+      "id": "NYS Senator Jackson",
+      "group": 3,
+      "long": "New York State Senator Robert Jackson (District 31)",
+      "desc": "Since 2019, Senator Jackson has represented Inwood, Washington Heights, and Marble Hill in the New York State Senate. He engages in progressive, grassroots politics. His campaign victory in 2018 was attributed to backlacsh against the incumbent Marisol Alcantara, who \"had joined the Independent Democratic Conference, a group of Democratic senators who allied themselves with the Senate Republican Conference that (had) controlled the chamber.\""
+    },
+    {
+      "id": "OTDA",
+      "group": 3,
+      "long": "New York State Office of Temporary and Disability Assistance",
+      "desc": "The ODTA \"is responsible for supervising programs that provide assistance and support to eligible families and individuals,\" including \"heating assistance\" and \"the federally-funded Emergency Rental Assistance Program (ERAP) which covers households with income up to 80 percent of the Area Median Income (AMI).\""
+    },
+    {
+      "id": "OMH",
+      "group": 3,
+      "long": "New York State Office of Mental Health",
+      "desc": "The New York State Office of Mental Health \"operates psychiatric centers across the State.\""
+    },
+    {
+      "id": "Representative Adriano Espaillat",
+      "group": 4,
+      "long": "U.S. Representative Adriano Espaillat (District 13)",
+      "desc": "..."
+    },
+    {
+      "id": "HUD",
+      "group": 4,
+      "long": "United States Department of Housing and Urban Development",
+      "desc": "HUD \"develops and executes policies on housing and metropolises,\" including rental assistance and subsidies for local public housing authorities."
+    },
+    {
+      "id": "NMIC",
+      "group": 5,
+      "long": "Northern Manhattan Improvement Corporation",
+      "desc": "..."
+    },
+    {
+      "id": "Manhattan Legal Services",
+      "group": 5,
+      "long": "Manhattan Legal Services",
+      "desc": "..."
+    },
+    {
+      "id": "Met Council on Housing",
+      "group": 5,
+      "long": "Metropolitan Council on Housing",
+      "desc": "..."
+    },
+    {
+      "id": "Other Northern Manhattan CBOs",
+      "group": 5,
+      "long": "Northern Manhattan Community-Based Organizations",
+      "desc": "..."
+    },
+    {
+      "id": "Heat Seek",
+      "group": 7,
+      "long": "Heat Seek",
+      "desc": "..."
+    },
+    {
+      "id": "JustFix.nyc",
+      "group": 7,
+      "long": "JustFix.nyc",
+      "desc": "..."
+    },
+    {
+      "id": "Other Tenants' Rights Organizations",
+      "group": 7,
+      "long": "Other Tenants' Rights Organizations",
+      "desc": "Other tenants' rights organizations may assist Inwood and Washington Heights residents or connect them with additional resources."
+    },
+    {
+      "id": "NextStep HealthTech",
+      "group": 8,
+      "long": "NextStep HealthTech",
+      "desc": "..."
+    },
+    {
+      "id": "Me, Myself, & I",
+      "group": 8,
+      "long": "Me, Myself, & I",
+      "desc": "..."
+    },
+    {
+      "id": "Other Mental Health Organizations",
+      "group": 8,
+      "long": "Other Mental Health Organizations",
+      "desc": "Other mental health organizations may assist Inwood and Washington Heights residents or connect them with additional resources."
+    },
+    {
+      "id": "Inwood and Washington Heights Schools",
+      "group": 9,
+      "long": "Inwood and Washington Heights Schools",
+      "desc": "..."
+    },
+    {
+      "id": "Inwood and Washington Heights Community",
+      "group": 9,
+      "long": "Inwood and Washington Heights Community",
+      "desc": "As described by MOCTO, \"The Inwood and Washington Heights neighborhood encompasses the northernmost portion of Manhattan. The community of approximately 220,000 people is about 69% Hispanic or Latinx, and the largest group is of Dominican descent. 50% of renter households are rent-burdened, spending over half of their income on rent; 77% of apartments are rent-stabilized; and 15% of apartments report 3 or more maintenance problems. Additionally, this neighborhood has the biggest population of youth in Manhattan: over 35,000 of its residents are between the ages of 5 and 19 years. This district also has the highest number of teenage mothers in Manhattan. It also falls under the category of Mental Health Care Shortage Areas (MHSAs).\"<br/><br/> There is a rich, multi-ethnic history to this neighborhood, with current socioeconomic demographics largely influenced by white flight and immigration from the Dominican Republic associated with a shift in NYC from an industrial economy to a service economy starting in the 1960s, as well as gentrification throughout the 2000s contributing to \"drastic rent increases\" and \"the highest rate of severe crowding in Manhattan.\""
+    }
+  ],
+  "links": [
+    {
+      "source": "MOCTO + NYCEDC",
+      "target": "Other Northern Manhattan CBOs",
+      "value": 10
+    },
+    {
+      "source": "MOCTO + NYCEDC",
+      "target": "Inwood and Washington Heights Community",
+      "value": 10
+    },
+    {
+      "source": "MOCTO + NYCEDC",
+      "target": "HPD",
+      "value": 10
+    },
+    {
+      "source": "MOCTO + NYCEDC",
+      "target": "MOPT",
+      "value": 10
+    },
+    {
+      "source": "NYC Council Member Rodríguez",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "NYC Council Committee on Technology",
+      "target": "MOCTO + NYCEDC",
+      "value": 1
+    },
+    {
+      "source": "Community Board 12",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "Manhattan DA",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "HRA",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "HPD",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "MOPT",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "PEU",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "PEU",
+      "target": "Heat Seek",
+      "value": 10
+    },
+    {
+      "source": "MOCMH",
+      "target": "MOCTO + NYCEDC",
+      "value": 10
+    },
+    {
+      "source": "MOCMH",
+      "target": "Me, Myself, & I",
+      "value": 10
+    },
+    {
+      "source": "Representative Adriano Espaillat",
+      "target": "Me, Myself, & I",
+      "value": 10
+    },
+    {
+      "source": "Representative Adriano Espaillat",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "DOHMH",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "NYC Health + Hospitals",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "NYS Assembly Member De La Rosa",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "NYS Senator Jackson",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "OTDA",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "OMH",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "HUD",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "NMIC",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "NMIC",
+      "target": "Other Northern Manhattan CBOs",
+      "value": 1
+    },
+    {
+      "source": "NMIC",
+      "target": "JustFix.nyc",
+      "value": 10
+    },
+    {
+      "source": "Manhattan Legal Services",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "Manhattan Legal Services",
+      "target": "Other Northern Manhattan CBOs",
+      "value": 1
+    },
+    {
+      "source": "Manhattan Legal Services",
+      "target": "JustFix.nyc",
+      "value": 10
+    },
+    {
+      "source": "Met Council on Housing",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "Met Council on Housing",
+      "target": "Other Northern Manhattan CBOs",
+      "value": 1
+    },
+    {
+      "source": "Met Council on Housing",
+      "target": "JustFix.nyc",
+      "value": 10
+    },
+    {
+      "source": "Other Northern Manhattan CBOs",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "Heat Seek",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "Heat Seek",
+      "target": "MOCTO + NYCEDC",
+      "value": 10
+    },
+    {
+      "source": "JustFix.nyc",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "JustFix.nyc",
+      "target": "MOCTO + NYCEDC",
+      "value": 10
+    },
+    {
+      "source": "Other Tenants' Rights Organizations",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "NextStep HealthTech",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "NextStep HealthTech",
+      "target": "MOCTO + NYCEDC",
+      "value": 10
+    },
+    {
+      "source": "NextStep HealthTech",
+      "target": "Inwood and Washington Heights Schools",
+      "value": 10
+    },
+    {
+      "source": "Me, Myself, & I",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "Me, Myself, & I",
+      "target": "MOCTO + NYCEDC",
+      "value": 10
+    },
+    {
+      "source": "Me, Myself, & I",
+      "target": "Inwood and Washington Heights Schools",
+      "value": 10
+    },
+    {
+      "source": "Other Mental Health Organizations",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    }
+  ]
+}

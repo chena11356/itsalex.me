@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Visualization of SES for tenants' rights and mental health resources in Inwood and Washington Heights."
+    />
+    <meta name="author" content="Alex Chen" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+
+    <title>SES Visualization</title>
+
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1>SES Visualization</h1>
+    <h3>
+      Visualizing tenants' rights and mental health resources in Inwood and
+      Washington Heights.
+    </h3>
+    <div>
+      D3 directed graph, double click on a node to find its neighbours<br />
+      References for this code:
+      <a
+        href="http://www.coppelia.io/2014/06/finding-neighbours-in-a-d3-force-directed-layout-2/"
+        target="_blank"
+        >coppelia blog</a
+      >
+      and Mike Bostock's
+      <a href="https://bl.ocks.org/mbostock/4062045" target="_blank">blog</a>
+      and
+      <a
+        href="https://bl.ocks.org/mbostock/4e3925cdc804db257a86fdef3a032a45"
+        target="_blank"
+        >here</a
+      >
+    </div>
+    <svg width="960" height="800"></svg>
+    <div class="tooltip"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
