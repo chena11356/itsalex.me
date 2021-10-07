@@ -79,6 +79,10 @@ d3.json("data.json", function (error, graph) {
           return 11;
         case "Me, Myself, & I":
           return 11;
+        case "Note About Tenants' Rights Resources":
+          return 11;
+        case "Note About Mental Health Resources":
+          return 11;
         case "Inwood and Washington Heights Community":
           return 15;
         default:
@@ -106,19 +110,23 @@ d3.json("data.json", function (error, graph) {
     .attr("x", function (d) {
       switch (d.id) {
         case "MOCTO + NYCEDC":
-          return 12;
+          return 13;
         case "Heat Seek":
-          return 12;
+          return 13;
         case "JustFix.nyc":
-          return 12;
+          return 13;
         case "NextStep HealthTech":
-          return 12;
+          return 13;
         case "Me, Myself, & I":
-          return 12;
+          return 13;
+        case "Note About Tenants' Rights Resources":
+          return 13;
+        case "Note About Mental Health Resources":
+          return 13;
         case "Inwood and Washington Heights Community":
-          return 16;
+          return 17;
         default:
-          return 8;
+          return 9;
       }
     })
     .attr("y", 5)
@@ -168,15 +176,21 @@ d3.json("data.json", function (error, graph) {
         .transition()
         .duration(200)
         .style("opacity", 0.95);
-      let html =
-        "<b>" +
-        d.long +
-        "</b><br/><br/><i>Type: " +
-        GROUPS[d.group] +
-        "</i><br/><br/>" +
-        d.desc;
-      // if (d.in == d.out) html = "User " + d.userID + "<br/>" + d.in + " conns";
-      // else html = "User " + d.userID + "<br/>" + d.in + " in, " + d.out + " out";
+      let html = "";
+      if (
+        d.id === "Note About Tenants' Rights Resources" ||
+        d.id === "Note About Mental Health Resources"
+      ) {
+        html = "<b>" + d.long + "</b><br/><br/>" + d.desc;
+      } else {
+        html =
+          "<b>" +
+          d.long +
+          "</b><br/><br/><i>Type: " +
+          GROUPS[d.group] +
+          "</i><br/><br/>" +
+          d.desc;
+      }
       div
         .html(html)
         .style("left", d.x + 8 + "px")
@@ -344,6 +358,16 @@ d3.json("data.json", function (error, graph) {
       case "Representative Adriano Espaillat":
         d.fx = (6 * width) / 8;
         d.fy = height / 2 + 70;
+        d.fixed = true;
+        break;
+      case "Note About Tenants' Rights Resources":
+        d.fx = 30;
+        d.fy = 30;
+        d.fixed = true;
+        break;
+      case "Note About Mental Health Resources":
+        d.fx = 30;
+        d.fy = 60;
         d.fixed = true;
         break;
       default:
