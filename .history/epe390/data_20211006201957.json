@@ -1,0 +1,428 @@
+{
+  "nodes": [
+    {
+      "id": "MOCTO + NYCEDC",
+      "group": 1,
+      "long": "New York City Mayor's Office of the Chief Technology Officer + New York City Economic Development Corporation",
+      "desc": "MOCTO conducts project and collaborates with other government agencies to \"ensure that technology is inclusive, accessible, human-centered, and works for all New Yorkers,\" with focus areas of universal broadband, digital services, inclusive innovation, and tech & society. <br/><br/>NYCEDC is a nonprofit corporation that \"leverages the City’s assets to create good jobs and drive growth, ensuring equitable and sustainable development across all five boroughs.\" <br/><br/>Together, MOCTO and NYCEDC run \"NYC[x] Challenges\" to \"propose bold ideas that solve for real urban needs, improve the way we live, support a thriving economy, and create good-paying jobs,\" with \"co-lab challenges\" that \"enable members of NYC communities to voice concerns on the neighborhood level and work with entrepreneurs to surface problems, co-create prototype solutions, and apply, test, and grow emerging technologies.\""
+    },
+    {
+      "id": "NYC Council Member Rodríguez",
+      "group": 2,
+      "long": "New York City Council Member Ydanis Rodríguez (District 10)",
+      "desc": "Since 2010, Council Member Rodríguez has represented Inwood, Washington Heights, and Marble Hill in the New York City Council. He emphasizes the \"robust and authentic identity of a multicultural, working class community,\" wishes to pioneer \"the cultivation of a technological and health hub,\" and encourages \"private-public partnerships infused with mixed use of resources.\""
+    },
+    {
+      "id": "NYC Council Committee on Technology",
+      "group": 2,
+      "long": "New York City Council Committee on Technology",
+      "desc": "The Committee on Technology is chaired by Council Member Robert Holden and includes Council Members Paul Vallone, Eric Ulrich, Brad Lander, and Kalman Yeger. The Committee \"has jurisdiction over technology-related issues in New York City, including the Department of Information Technology and Telecommunications (for non-land use related issues), Mayor’s Office of Media and Entertainment, NYC TV, and dissemination of public information through the use of technology.\""
+    },
+    {
+      "id": "Community Board 12",
+      "group": 2,
+      "long": "New York City Manhattan Community Board 12",
+      "desc": "Community Board 12 represents Inwood and Washington Heights. As described on their website, \"Community Boards have an important advisory role in dealing with land use and zoning matters, the City budget, municipal service delivery and many other matters relating to their communities’ welfare. Board 12 is here to improve the quality of life for all New Yorkers residing in their community.\" Community Board 12 also shares resources and CBOs with constituents."
+    },
+    {
+      "id": "Manhattan DA",
+      "group": 2,
+      "long": "Manhattan District Attorney Cyrus Vance Jr.",
+      "desc": "The Manhattan District Attorney is \"responsible for the prosecution of violation of New York state laws\". While the current Manhattan DA is Cyrus Vance Jr., he will most likely be replaced in 2022 by Alvin Bragg, the Democratic nominee."
+    },
+    {
+      "id": "HRA",
+      "group": 2,
+      "long": "New York City Human Resources Administration",
+      "desc": "The New York City Human Resources Administration / Department of Social Services is \"the largest local social services agency in the country\" and \"helps more than three million New Yorkers annually through the administration of more than 12 major public assistance programs, with more than 14,000 employees and an operating budget of $9.6 billion,\" including Emergency Rental Assistance."
+    },
+    {
+      "id": "HPD",
+      "group": 2,
+      "long": "New York City Department of Housing Preservation and Development",
+      "desc": "HPD is \"responsible for developing and maintaining the city's stock of affordable housing.\" The NYC[x] Inwood Housing Rights Challenge was a partnership between MOCTO, NYCEDC, HPD, and MOPT."
+    },
+    {
+      "id": "MOPT",
+      "group": 2,
+      "long": "New York City Mayor's Office to Protect Tenants",
+      "desc": "MOPT helps to \"coordinate the City's range of tenant protection efforts\" and aims to \"work across City agencies to make existing anti-harassment and anti-displacement programs better, and create new strategies to root out abuse.\" The NYC[x] Inwood Housing Rights Challenge was a partnership between MOCTO, NYCEDC, HPD, and MOPT."
+    },
+    {
+      "id": "PEU",
+      "group": 2,
+      "long": "New York City Mayor's Public Engagement Unit",
+      "desc": "PEU \"proactively connects New Yorkers to key City services, providing individualized, long-term case management across a broad range of resources to help tenants stay in their homes, sign up for or renew health insurance coverage, and more.\" PEU's Tenant Support Unit assisted Heat Seek with the distribution of sensors."
+    },
+    {
+      "id": "MOCMH",
+      "group": 2,
+      "long": "New York City Mayor's Office of Community Mental Health",
+      "desc": "MOCMH is promotes mental health in New York through policy guidance and connecting constituents to mental health services. The NYC[x] Inwood Accessible Mental Health Challenge was a partnership between MOCTO, NYCEDC, and MOCMH. Established in 2015 as the \"pet project\" of First Lady Chirlane McCray, MOCMH originated as ThriveNYC before being rebranded in 2019 after an audit revealed extensive budget discrepancies and lack of accountability or transparency."
+    },
+    {
+      "id": "DOHMH",
+      "group": 2,
+      "long": "New York City Department of Health and Mental Hygiene",
+      "desc": "The DOHMH is \"responsible for public health along with issuing birth certificates, dog licenses, and conducting restaurant inspection and enforcement.\" DOHMH also connects people and organizations with mental health services."
+    },
+    {
+      "id": "NYC Health + Hospitals",
+      "group": 2,
+      "long": "New York City Health and Hospitals Corporation",
+      "desc": "The New York City Health and Hospitals Corporation \"operates the public hospitals and clinics in New York City as a public benefit corporation.\" These hospitals offer mental health services."
+    },
+    {
+      "id": "NYS Assembly Member De La Rosa",
+      "group": 3,
+      "long": "New York State Assembly Member Carmen De La Rosa (District 72)",
+      "desc": "Since 2017, Assembly Member De La Rosa has represented Inwood and parts of Washington Heights in the New York State Assembly. She engages in progressive, grassroots politics."
+    },
+    {
+      "id": "NYS Senator Jackson",
+      "group": 3,
+      "long": "New York State Senator Robert Jackson (District 31)",
+      "desc": "Since 2019, Senator Jackson has represented Inwood, Washington Heights, and Marble Hill in the New York State Senate. He engages in progressive, grassroots politics. His campaign victory in 2018 was attributed to backlacsh against the incumbent Marisol Alcantara, who \"had joined the Independent Democratic Conference, a group of Democratic senators who allied themselves with the Senate Republican Conference that (had) controlled the chamber.\""
+    },
+    {
+      "id": "OTDA",
+      "group": 3,
+      "long": "New York State Office of Temporary and Disability Assistance",
+      "desc": "The ODTA \"is responsible for supervising programs that provide assistance and support to eligible families and individuals,\" including \"heating assistance\" and \"the federally-funded Emergency Rental Assistance Program (ERAP) which covers households with income up to 80 percent of the Area Median Income (AMI).\""
+    },
+    {
+      "id": "OMH",
+      "group": 3,
+      "long": "New York State Office of Mental Health",
+      "desc": "The New York State Office of Mental Health \"operates psychiatric centers across the State.\""
+    },
+    {
+      "id": "Representative Adriano Espaillat",
+      "group": 4,
+      "long": "U.S. Representative Adriano Espaillat (District 13)",
+      "desc": "Since 2017, Representative Espaillat has represented Inwood, Washington Heights, and Marble Hill in Congress. He engages in progressive, grassroots politics. In May 2021, he assisted Me, Myself, & I by co-hosting with MOCMH \"a mental health listening session for young community members to share their challenges and ideas for addressing them.\""
+    },
+    {
+      "id": "HUD",
+      "group": 4,
+      "long": "United States Department of Housing and Urban Development",
+      "desc": "HUD \"develops and executes policies on housing and metropolises,\" including rental assistance and subsidies for local public housing authorities."
+    },
+    {
+      "id": "NMIC",
+      "group": 5,
+      "long": "Northern Manhattan Improvement Corporation",
+      "desc": "NMIC is \"a non-profit that operates under a settlement house model to provide free services to residents of Upper Manhattan and the Bronx.\" JustFix.nyc partnered with NMIC, Manhattan Legal Services, and the Met Council on Housing \"to reach tenants and increase their understanding of the housing rights issues in Inwood and Washington Heights.\""
+    },
+    {
+      "id": "Manhattan Legal Services",
+      "group": 5,
+      "long": "Manhattan Legal Services",
+      "desc": "Manhattan Legal Services \"represents and advises thousands of low income residents of Manhattan facing crises with basic needs.\" JustFix.nyc partnered with NMIC, Manhattan Legal Services, and the Met Council on Housing \"to reach tenants and increase their understanding of the housing rights issues in Inwood and Washington Heights.\""
+    },
+    {
+      "id": "Met Council on Housing",
+      "group": 5,
+      "long": "Metropolitan Council on Housing",
+      "desc": "The Metropolitan Council on Housing is a tenants’ rights membership organization that advocates for tenants' rights. JustFix.nyc partnered with NMIC, Manhattan Legal Services, and the Met Council on Housing \"to reach tenants and increase their understanding of the housing rights issues in Inwood and Washington Heights.\""
+    },
+    {
+      "id": "Other Northern Manhattan CBOs",
+      "group": 5,
+      "long": "Northern Manhattan Community-Based Organizations",
+      "desc": "Other Northern Manhattan CBOs engaged in the co-production process by participating in focus groups. They may also assist Inwood and Washington Heights residents or connect them with additional resources."
+    },
+    {
+      "id": "Heat Seek",
+      "group": 7,
+      "long": "Heat Seek",
+      "desc": "Founded in 2014, Heat Seek is \"both a tech startup and a mission-driven nonprofit, helping tenants, community organizers, and lawyers use data to tell stories about housing mismanagement... Recognizing that lack of heat is the #1 complaint made to 311 by New Yorkers in the winter, Heat Seek builds low-cost, web-connected temperature sensors to help tenants gather evidence that proves serious and persistent lack of heat in their apartments.\" As one of the winners of the NYC[x] Inwood Housing Rights Challenge, Heat Seek \"received up to $20,000 and support from the Inwood Community Tech Board to conduct a nine-month pilot in 2021 of their proposed solutions to enable tenants to protect their housing rights under NYC law and prevent tenant harassment, abuse, and displacement in the neighborhood.\""
+    },
+    {
+      "id": "JustFix.nyc",
+      "group": 7,
+      "long": "JustFix.nyc",
+      "desc": "JustFix.nyc is \"a startup that develops data-driven tools that provide tenants and community advocates with the resources they need,\" including \"Tenant Text,\" which is \"an SMS portal to connect tenants dealing with housing issues to the appropriate resource to take immediate action, featuring two-way messaging interactions with users.\" As one of the winners of the NYC[x] Inwood Housing Rights Challenge, JustFix.nyc \"received up to $20,000 and support from the Inwood Community Tech Board to conduct a nine-month pilot in 2021 of their proposed solutions to enable tenants to protect their housing rights under NYC law and prevent tenant harassment, abuse, and displacement in the neighborhood.\""
+    },
+    {
+      "id": "Other Tenants' Rights Organizations",
+      "group": 7,
+      "long": "Other Tenants' Rights Organizations",
+      "desc": "Other tenants' rights organizations may assist Inwood and Washington Heights residents or connect them with additional resources."
+    },
+    {
+      "id": "NextStep HealthTech",
+      "group": 8,
+      "long": "NextStep HealthTech",
+      "desc": "NextStep HealthTech is \"a mission-driven technology company that creates solutions to improve population health and social resilience for individuals and communities.\" They operate NextStep GoodLife, which is \"NextStep’s evidence-based youth resilience cultivation and substance misuse prevention platform, based on a platform commissioned by the New Hampshire Department of Education and customized for New York City... In Inwood and Washington Heights, The NextStep GoodLife platform provides Latinx youth mental health resilience resources, and helps young people aged 13-18 access linguistically and culturally competent mental health resources. Through the platform, youth in Washington Heights & Inwood can anonymously connect with other users in their school-specific communities, regions or interest-based communities. They are also able to access NextStep.Health, which facilitates access to nearby resources and anonymous emergency hotlines.\" As one of the winners of the NYC[x] Inwood Accessible Mental Health Challenge, NextStep HealthTech \"received up to $20,000 and support from the Inwood Community Tech Board to conduct an eight-month pilot of their proposed solutions.\""
+    },
+    {
+      "id": "Me, Myself, & I",
+      "group": 8,
+      "long": "Me, Myself, & I",
+      "desc": "Me, Myself, & I is \"a comic book imprint that harnesses the power of sequential storytelling to jumpstart conversations about mental wellness among Black and brown youth. Their goal is to remove the stigma of mental health in communities of color... For the pilot, Me, Myself & I created \"Heroes Next Door,\" a comic that tells the story of a Latinx superhero charged with saving the world while also working on the mental health challenges that come with being a hero. By creating a character that is grounded in \"strength\" to speak about the mental health challenges that Latinx youth face in their day-to-day lives, Me, Myself & I hopes to remove the stigma of weakness and normalize conversations about mental health in Latinx communities.\" As one of the winners of the NYC[x] Inwood Accessible Mental Health Challenge, Me, Myself, & I \"received up to $20,000 and support from the Inwood Community Tech Board to conduct an eight-month pilot of their proposed solutions.\""
+    },
+    {
+      "id": "Other Mental Health Organizations",
+      "group": 8,
+      "long": "Other Mental Health Organizations",
+      "desc": "Other mental health organizations may assist Inwood and Washington Heights residents or connect them with additional resources."
+    },
+    {
+      "id": "Inwood and Washington Heights Schools",
+      "group": 9,
+      "long": "Inwood and Washington Heights Schools",
+      "desc": "Inwood and Washington Heights schools were closely involved with the NYC[x] Inwood Accessible Mental Health Challenge, participating in focus groups and working closely with NextStep HealthTech and Me, Myself, & I as part of the co-production process."
+    },
+    {
+      "id": "Inwood and Washington Heights Community",
+      "group": 9,
+      "long": "Inwood and Washington Heights Community",
+      "desc": "As described by MOCTO, \"The Inwood and Washington Heights neighborhood encompasses the northernmost portion of Manhattan. The community of approximately 220,000 people is about 69% Hispanic or Latinx, and the largest group is of Dominican descent. 50% of renter households are rent-burdened, spending over half of their income on rent; 77% of apartments are rent-stabilized; and 15% of apartments report 3 or more maintenance problems. Additionally, this neighborhood has the biggest population of youth in Manhattan: over 35,000 of its residents are between the ages of 5 and 19 years. This district also has the highest number of teenage mothers in Manhattan. It also falls under the category of Mental Health Care Shortage Areas (MHSAs).\"<br/><br/> There is a rich, multi-ethnic history to this neighborhood, with current socioeconomic demographics largely influenced by white flight and immigration from the Dominican Republic associated with a shift in NYC from an industrial economy to a service economy starting in the 1960s, as well as gentrification throughout the 2000s contributing to \"drastic rent increases\" and \"the highest rate of severe crowding in Manhattan.\""
+    },
+    {
+      "id": "Note About Tenants' Rights Resources",
+      "group": 7,
+      "long": "Note About Tenants' Rights Resources",
+      "desc": "Awareness of tenants' rights and the ability for tenants to punish delinquent landlords may be considered a mixed good. On one hand, in theory, increased protection of tenants' rights exhibits both non-exclusion (every tenant would benefit) and joint consumption (one tenant's case against a landlord would not affect another tenant's case against their landlord). However, the particular implementation of resources may cause the nature of the good to differ. For example, a Heat Seek sensor is a private good, as it can only be installed in one apartment. Additionally, a backlogged judiciary and inefficient social service system may cause the processing of one tenant's case to directly delay the processing of another tenant's case, resembling a common-pool resource. <br/><br/>The collective action problem, at worst, appears to be the ineffective collaboration of different underfunded resource providers in a system that incentivizes the punting of aggrieved tenants to other organizations in a frustrating game of monkey-in-the-middle. Alternatively, the collective action problem may be framed as transforming the current system such that taking action against a delinquent landlord no longer resembles a common-pool resource, but rather becomes a truly public good by making the system efficient enough that one tenant's case does not slow down another tenant's case. <br/><br/>I theorize that the NYC[x] Inwood Housing Rights Challenge, by incentivizing private sector entities to enter the \"market\" of tenants' rights resources, aimed to introduce more production units into a public economy that had largely relied, almost exclusively, on a handful of public entities. In doing so, I frame the Inwood and Washington Heights community and Northern Manhattan CBOs as collective consumption units, not the local government agencies that serve the community. However, while the pilots appear to have accomplished immediate relief as a shock in the tenants' rights resources \"market\", more work should be done to identify a sustainable solution to fix the public economy of tenants' rights resources."
+    },
+    {
+      "id": "Note About Mental Health Resources",
+      "group": 8,
+      "long": "Note About Mental Health Resources",
+      "desc": "Awareness of mental health resources and the ability for youth to discuss mental health challenges may be considered a mixed good. On one hand, in theory, increased access to mental health services and increased willingness to discuss mental health exhibits both non-exclusion (every person may choose to access these resources or engage in a positive mental health culture) and joint consumption (one youth's utilization of mental health resources or participation in a positive mental health culture does not detract from another youth's ability to enjoy these resources). However, Me, Myself, & I operates primarily through publishing comic books, which are private goods. <br/><br/>I theorize that NextStep HealthTech and Me, Myself, & I aim to empower youth to become their own production unit of positive mental health culture, especially through NextStep GoodLife's role as a social platform. However, I also theorize that the framing of the NYC[x] Inwood Mental Health Challenge as a competition for private entities to use \"innovation\" to co-design mental health solutions may have obscured the collective action problem, as the problem may not have originated within the collective consumption unit (Inwood and Washington Heights youth and schools), but rather with the production units, or lack thereof (why is it so unprofitable for private sector organizations to operate in the space of youth mental health, and why are existing mental health resources insufficient?). More work should be done to identify a sustainable solution to fix the public economy of mental health resources."
+    }
+  ],
+  "links": [
+    {
+      "source": "MOCTO + NYCEDC",
+      "target": "Other Northern Manhattan CBOs",
+      "value": 10
+    },
+    {
+      "source": "MOCTO + NYCEDC",
+      "target": "Inwood and Washington Heights Community",
+      "value": 10
+    },
+    {
+      "source": "MOCTO + NYCEDC",
+      "target": "HPD",
+      "value": 10
+    },
+    {
+      "source": "MOCTO + NYCEDC",
+      "target": "MOPT",
+      "value": 10
+    },
+    {
+      "source": "NYC Council Member Rodríguez",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "NYC Council Committee on Technology",
+      "target": "MOCTO + NYCEDC",
+      "value": 1
+    },
+    {
+      "source": "Community Board 12",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "Manhattan DA",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "HRA",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "HPD",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "MOPT",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "PEU",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "PEU",
+      "target": "Heat Seek",
+      "value": 10
+    },
+    {
+      "source": "MOCMH",
+      "target": "MOCTO + NYCEDC",
+      "value": 10
+    },
+    {
+      "source": "MOCMH",
+      "target": "Me, Myself, & I",
+      "value": 10
+    },
+    {
+      "source": "Representative Adriano Espaillat",
+      "target": "Me, Myself, & I",
+      "value": 10
+    },
+    {
+      "source": "Representative Adriano Espaillat",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "DOHMH",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "NYC Health + Hospitals",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "NYS Assembly Member De La Rosa",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "NYS Senator Jackson",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "OTDA",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "OMH",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "HUD",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "NMIC",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "NMIC",
+      "target": "Other Northern Manhattan CBOs",
+      "value": 1
+    },
+    {
+      "source": "NMIC",
+      "target": "JustFix.nyc",
+      "value": 10
+    },
+    {
+      "source": "Manhattan Legal Services",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "Manhattan Legal Services",
+      "target": "Other Northern Manhattan CBOs",
+      "value": 1
+    },
+    {
+      "source": "Manhattan Legal Services",
+      "target": "JustFix.nyc",
+      "value": 10
+    },
+    {
+      "source": "Met Council on Housing",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "Met Council on Housing",
+      "target": "Other Northern Manhattan CBOs",
+      "value": 1
+    },
+    {
+      "source": "Met Council on Housing",
+      "target": "JustFix.nyc",
+      "value": 10
+    },
+    {
+      "source": "Other Northern Manhattan CBOs",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "Heat Seek",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "Heat Seek",
+      "target": "MOCTO + NYCEDC",
+      "value": 10
+    },
+    {
+      "source": "JustFix.nyc",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "JustFix.nyc",
+      "target": "MOCTO + NYCEDC",
+      "value": 10
+    },
+    {
+      "source": "Other Tenants' Rights Organizations",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "NextStep HealthTech",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "NextStep HealthTech",
+      "target": "MOCTO + NYCEDC",
+      "value": 10
+    },
+    {
+      "source": "NextStep HealthTech",
+      "target": "Inwood and Washington Heights Schools",
+      "value": 10
+    },
+    {
+      "source": "Me, Myself, & I",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    },
+    {
+      "source": "Me, Myself, & I",
+      "target": "MOCTO + NYCEDC",
+      "value": 10
+    },
+    {
+      "source": "Me, Myself, & I",
+      "target": "Inwood and Washington Heights Schools",
+      "value": 10
+    },
+    {
+      "source": "Other Mental Health Organizations",
+      "target": "Inwood and Washington Heights Community",
+      "value": 1
+    }
+  ]
+}
